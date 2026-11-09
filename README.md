@@ -56,7 +56,8 @@ A few sample images are in the `drowsiness_data` folder.
 
 ## Trained Model
 
-The trained model file (`drowsiness_model.h5`, about 128 MB) is too large for GitHub. Download it here: **[ADD GOOGLE DRIVE LINK HERE]**
+The trained model file (`drowsiness_model.h5`, about 128 MB) is too large for GitHub. Download it here: 
+**[(https://drive.google.com/file/d/1Ni2jnBIyyVkCGQ_NjcuLNftSUMhEl84y/view?usp=sharing)]**
 
 Place `drowsiness_model.h5` in the same folder as `app.py`.
 
