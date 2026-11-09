@@ -31,7 +31,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Google Drive Model Download
-MODE_PATH = 'drowsiness_model.h5"
+MODE_PATH = "drowsiness_model.h5"
 FILLED_ID = "https://drive.google.com/file/d/1Ni2jnBIyyVkCGQ_NjcuLNftSUMhEl84y/view?usp=sharing"
 
 # Load model
