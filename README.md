@@ -14,7 +14,7 @@ Built with Python, TensorFlow/Keras and Streamlit as part of my AI & ML internsh
 
 - Binary image classification (Drowsy vs Awake) using a CNN
 - Data augmentation (rotation, zoom, horizontal flip) to improve generalisation
-- Train, validation and test split with accuracy evaluation
+- Train, validation split with accuracy evaluation
 - Streamlit web app with image upload and prediction confidence
 
 ## Model Architecture
@@ -24,7 +24,7 @@ Built with Python, TensorFlow/Keras and Streamlit as part of my AI & ML internsh
 - Output: 1 neuron with sigmoid activation (binary classification)
 - Loss: binary cross-entropy, Optimizer: Adam, Epochs: 15
 
-**Test accuracy:** XX% (replace XX with the value printed by `train.py`)
+**Validation accuracy:86.67% 
 
 ## Project Structure
 
@@ -40,7 +40,7 @@ drowsiness_data/        # A few sample images from the dataset
 
 ## Dataset
 
-The full dataset is not included because of its size. Download it here: **[ADD DATASET LINK HERE]**
+The full dataset is not included because of its size. Source: Drowsiness image dataset from Kaggle.
 
 Place it in this folder structure before training:
 
@@ -49,7 +49,6 @@ dataset/
 └── Drowsiness Dataset/
     ├── train/
     ├── valid/
-    └── test/
 ```
 
 A few sample images are in the `drowsiness_data` folder.
